@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZILBER PROD — הפקה, מיקס ומאסטרינג</title>
+  <meta name="description" content="ZILBER PROD — מפיק מוזיקלי ומהנדס מיקס ומאסטרינג. סאונד פרימיום, מהפקה והקלטה ועד מיקס ומאסטרינג מלא לאלבומים.">
+  <meta name="theme-color" content="#0a0b0d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header + hidden menu -->
+  <header class="top">
+    <a href="#top" class="top__mark latin" aria-label="ZILBER PROD">ZILBER</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">
+      <span class="menu-btn__label">תפריט</span>
+      <span class="menu-btn__bars" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </header>
+
+  <nav class="menu" id="menu" aria-hidden="true">
+    <ul>
+      <li><a href="#about"><span class="latin">01</span>אודות</a></li>
+      <li><a href="#services"><span class="latin">02</span>שירותים</a></li>
+      <li><a href="#work"><span class="latin">03</span>עבודות</a></li>
+      <li><a href="#lessons"><span class="latin">04</span>שיעורים</a></li>
+      <li><a href="#contact"><span class="latin">05</span>יצירת קשר</a></li>
+    </ul>
+  </nav>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" data-img="hero"></div>
+      <div class="hero__inner">
+        <img class="hero__logo" src="assets/logo-white.png" alt="ZILBER PROD" width="848" height="544">
+        <p class="hero__role latin">YUVAL ZILBERSHTEIN</p>
+        <p class="hero__sub">הפקה &nbsp;·&nbsp; מיקס &nbsp;·&nbsp; מאסטרינג</p>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="גלול למטה"><span></span></a>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <p class="eyebrow reveal"><span class="latin">01</span> אודות</p>
+      <div class="about__grid">
+        <div class="about__text">
+          <h2 class="statement reveal">לוקח את המוזיקה<br>שלך <em>לצעד הבא</em>.</h2>
+          <div class="about__body reveal">
+            <p>
+              אני יובל זילברשטיין, מפיק מוזיקלי וטכנאי מיקס ומאסטרינג, הפועל תחת השם
+              <span class="latin">ZILBER</span>. אני עובד בדיוק מקסימלי ומתמחה ביצירת סאונד חסר
+              פשרות ומדויק עבורכם — מהפקה והקלטה ועד למיקס ומאסטרינג מלא לאלבומים וסינגלים של אמנים.
+            </p>
+            <p>
+              מעבר לעבודה עם לקוחות, אני מעביר שיעורי מיקס אישיים, אחד על אחד,
+              כדי לעזור למפיקים אחרים לקחת את המלאכה שלהם צעד קדימה.
+            </p>
+          </div>
+        </div>
+        <div class="about__portrait reveal" data-img="portrait"></div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="services">
+      <p class="eyebrow reveal"><span class="latin">02</span> שירותים</p>
+      <ul class="services__list">
+        <li class="reveal"><span class="latin n">01</span><h3>הפקה מוזיקלית</h3><p>בניית הרעיון, העיבוד והסאונד מאפס — עד לשיר שלם.</p></li>
+        <li class="reveal"><span class="latin n">02</span><h3>הקלטות</h3><p>הקלטה בסטנדרט גבוה, עם דגש על ביצוע וטון.</p></li>
+        <li class="reveal"><span class="latin n">03</span><h3>מיקס</h3><p>מיקס לסינגלים ולאלבומים מלאים, עם עומק, בהירות ואופי.</p></li>
+        <li class="reveal"><span class="latin n">04</span><h3>מאסטרינג</h3><p>הגימור הסופי — עוצמה ואחידות שעובדות בכל מערכת השמעה.</p></li>
+      </ul>
+    </section>
+
+    <!-- Full-bleed image band -->
+    <section class="band" aria-label="סטודיו">
+      <div class="band__bg" data-img="band"></div>
+      <p class="band__text reveal">כל פרט <em>נשמע</em>.</p>
+    </section>
+
+    <!-- Work -->
+    <section class="work section" id="work">
+      <p class="eyebrow reveal"><span class="latin">03</span> עבודות נבחרות</p>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <!-- Lessons -->
+    <section class="lessons section" id="lessons">
+      <p class="eyebrow reveal"><span class="latin">04</span> שיעורים</p>
+      <div class="about__grid about__grid--mirror">
+        <div class="about__text">
+          <h2 class="statement reveal">שיעורי מיקס<br><span class="latin">1-ON-1</span></h2>
+          <p class="lessons__body reveal">
+            מפגשים אישיים למפיקים שרוצים להעלות רמה: עבודה על הפרויקטים שלכם,
+            שיטות עבודה, החלטות מיקס, ואוזן שמתחדדת.
+          </p>
+          <a class="btn reveal" data-contact="whatsapp" href="#contact">לתיאום שיעור</a>
+        </div>
+        <div class="about__portrait reveal" data-img="lessons"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+      <p class="eyebrow reveal"><span class="latin">05</span> יצירת קשר</p>
+      <a class="contact__phone latin reveal" data-contact="phone" href="#">—</a>
+      <ul class="contact__links reveal">
+        <li><a data-contact="whatsapp" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a data-contact="instagram" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a data-contact="spotify" target="_blank" rel="noopener">Spotify</a></li>
+        <li><a data-contact="youtube" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a data-contact="email" target="_blank" rel="noopener">Email</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <span class="latin">© <span id="year"></span> ZILBER PROD</span>
+    <span class="latin">EST. 2021</span>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
