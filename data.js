@@ -23,21 +23,21 @@ window.SITE = {
   //   role : what you did on it
   // NOTE: same Samply link used for every "link" below — swap in per-track links if you have them.
   projects: [
-    { title: "שם הפרויקט", artist: "שגיא שי", role: "הפקה ומיקס", year: "", cover: "assets/covers/c01-cows.jpg", link: samplyLink },
-    { title: "שם הפרויקט", artist: "", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c02-contact-sheet.jpg", link: samplyLink },
+    { title: "מצלמות", artist: "איתי עברון", role: "הפקה ומיקס", year: "", cover: "assets/covers/c01-cows.jpg", link: samplyLink },
+    { title: "תמונות (איפי)", artist: "איתי עברון", role: "מיקס ומאסטרינג", year: "בקרוב", cover: "assets/covers/c02-contact-sheet.jpg", link: "" },
     { title: "לחזור כבר הביתה", artist: "אפרת גוש", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c03-lachzor-kvar-habaita.jpg", link: samplyLink },
     { title: "מחפש אהבה", artist: "גוזי", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c04-mechapes-ahava.jpg", link: samplyLink },
     { title: "המילים שלי אוצר", artist: "גוזי", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c05-hamilim-sheli-otzar.jpg", link: samplyLink },
-    { title: "בגללך", artist: "גוזי", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c06-biglalcha.jpg", link: samplyLink },
+    { title: "בשקט", artist: "חמישה לאחת", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c06-biglalcha.jpg", link: samplyLink },
     { title: "לא יציבה נפשית", artist: "גוזי", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c07-lo-yatziva-nafshit.jpg", link: samplyLink },
     { title: "כל הדרכים מובילות לצפון", artist: "זילבר", role: "הפקה, מיקס ומאסטרינג", year: "", cover: "assets/covers/c08-kol-hadrachim.jpg", link: samplyLink },
     { title: "Geo", artist: "", role: "מיקס ומאסטרינג", year: "בקרוב", cover: "assets/covers/c09-geo.jpg", link: "" },
     { title: "איתה", artist: "יאיר קליין", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c10-eyta.jpg", link: samplyLink },
     { title: "מגדלור", artist: "מור רום", role: "הפקה, מיקס ומאסטרינג", year: "", cover: "assets/covers/c11-migdalor.jpg", link: samplyLink },
-    { title: "מצלמות", artist: "איתי עברון", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c12-matzlemot.jpg", link: samplyLink },
-    { title: "שם הפרויקט", artist: "", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c13-beach-glow.jpg", link: samplyLink },
-    { title: "הסוס הלבן", artist: "", role: "מיקס ומאסטרינג", year: "בקרוב", cover: "assets/covers/c14-hasus-halavan.jpg", link: "" },
-    { title: "שם הפרויקט", artist: "", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c15-car-window.jpg", link: samplyLink }
+    { title: "נשתוק ונמשיך (לייב)", artist: "נדי", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c12-matzlemot.jpg", link: samplyLink },
+    { title: "אור, אור", artist: "עדי נוי", role: "מיקס ומאסטרינג", year: "", cover: "assets/covers/c13-beach-glow.jpg", link: samplyLink },
+    { title: "הסוס הלבן", artist: "עדי נוי", role: "מיקס ומאסטרינג", year: "בקרוב", cover: "assets/covers/c14-hasus-halavan.jpg", link: "" },
+    { title: "שירים שכתבתי ברכבת (איפי)", artist: "עדי נוי", role: "מיקס ומאסטרינג", year: "בקרוב", cover: "assets/covers/c15-car-window.jpg", link: "" }
   ],
 
   // Full-bleed studio images (leave "" for the dark placeholder)
